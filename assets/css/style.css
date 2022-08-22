@@ -1,0 +1,57 @@
+header { 
+    background: #304adb;
+    padding: 20px;
+}
+
+.header .logo img{
+    width: 147px!important;;
+}
+
+.button-style-one {
+    color: #fff;
+    border: 2px #fff solid;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4ms step-start;
+}
+
+.button-style-one:hover {
+    color: #304adb;
+    background-color: #fff;
+    transition: 0.4ms ;
+
+}
+
+
+
+/* table design */
+.point-sale {
+    background: #fff;
+    padding: 20px;
+}
+
+/* table design */
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+
+    table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
